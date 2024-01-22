@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <ProjectGuid>{65717733-8EE5-47F5-A2EC-F7227DDBBFC0}</ProjectGuid>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <Keyword>ManagedCProj</Keyword>
+    <RootNamespace>WaitersOnCall</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies />
+      <SubSystem>Windows</SubSystem>
+      <EntryPointSymbol>main</EntryPointSymbol>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies />
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies />
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies />
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AddDriverForm.cpp" />
+    <ClCompile Include="AddRestaurant.cpp" />
+    <ClCompile Include="DailySalesReport.cpp" />
+    <ClCompile Include="DeleteDriver.cpp" />
+    <ClCompile Include="DeleteRestaurant.cpp" />
+    <ClCompile Include="DriverAttendance.cpp" />
+    <ClCompile Include="DriverBackgroundForm.cpp" />
+    <ClCompile Include="DriverForm.cpp" />
+    <ClCompile Include="ForecastSales.cpp" />
+    <ClCompile Include="GetCustomerData.cpp" />
+    <ClCompile Include="GetDate.cpp" />
+    <ClCompile Include="HomePageForm.cpp" />
+    <ClCompile Include="LogInForm.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="MonthlySalesReport.cpp" />
+    <ClCompile Include="RecordOrder.cpp" />
+    <ClCompile Include="RecordOrderBackgroundForm.cpp" />
+    <ClCompile Include="RestaurantBackgroundForm.cpp" />
+    <ClCompile Include="RestaurantForm.cpp" />
+    <ClCompile Include="SalesForm.cpp" />
+    <ClCompile Include="SalesFormBackground.cpp" />
+    <ClCompile Include="UpdateandCancel.cpp" />
+    <ClCompile Include="UpdateDriver.cpp" />
+    <ClCompile Include="UpdateDuringOrderTaking.cpp" />
+    <ClCompile Include="UpdateForm.cpp" />
+    <ClCompile Include="UpdateOrderStatus.cpp" />
+    <ClCompile Include="UpdateRestaurant.cpp" />
+    <ClCompile Include="UpdateBackground.cpp" />
+    <ClCompile Include="WeeklySales.cpp" />
+    <ClCompile Include="WeeklyRestaurantPayments.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AddDriverForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="AddRestaurant.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="DailySalesReport.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="DeleteDriver.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="DeleteRestaurant.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="DriverAttendance.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="DriverBackgroundForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="DriverForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="ForecastSales.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="GetCustomerData.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="GetDate.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="HomePageForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="LogInForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="MonthlySalesReport.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="RecordOrder.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="RecordOrderBackgroundForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="RestaurantBackgroundForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="RestaurantForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="SalesForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="SalesFormBackground.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="UpdateandCancel.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="UpdateDriver.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="UpdateDuringOrderTaking.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="UpdateForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="UpdateOrderStatus.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="UpdateRestaurant.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="UpdateBackground.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="WeeklySales.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="WeeklyRestaurantPayments.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="AddDriverForm.resx">
+      <DependentUpon>AddDriverForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddRestaurant.resx">
+      <DependentUpon>AddRestaurant.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DailySalesReport.resx">
+      <DependentUpon>DailySalesReport.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DeleteDriver.resx">
+      <DependentUpon>DeleteDriver.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DeleteRestaurant.resx">
+      <DependentUpon>DeleteRestaurant.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DriverAttendance.resx">
+      <DependentUpon>DriverAttendance.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DriverBackgroundForm.resx">
+      <DependentUpon>DriverBackgroundForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DriverForm.resx">
+      <DependentUpon>DriverForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ForecastSales.resx">
+      <DependentUpon>ForecastSales.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GetCustomerData.resx">
+      <DependentUpon>GetCustomerData.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GetDate.resx">
+      <DependentUpon>GetDate.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HomePageForm.resx">
+      <DependentUpon>HomePageForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LogInForm.resx">
+      <DependentUpon>LogInForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MonthlySalesReport.resx">
+      <DependentUpon>MonthlySalesReport.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RecordOrder.resx">
+      <DependentUpon>RecordOrder.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RecordOrderBackgroundForm.resx">
+      <DependentUpon>RecordOrderBackgroundForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RestaurantBackgroundForm.resx">
+      <DependentUpon>RestaurantBackgroundForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RestaurantForm.resx">
+      <DependentUpon>RestaurantForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SalesForm.resx">
+      <DependentUpon>SalesForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SalesFormBackground.resx">
+      <DependentUpon>SalesFormBackground.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UpdateandCancel.resx">
+      <DependentUpon>UpdateandCancel.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UpdateBackground.resx">
+      <DependentUpon>UpdateBackground.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UpdateDriver.resx">
+      <DependentUpon>UpdateDriver.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UpdateDuringOrderTaking.resx">
+      <DependentUpon>UpdateDuringOrderTaking.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UpdateForm.resx">
+      <DependentUpon>UpdateForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UpdateOrderStatus.resx">
+      <DependentUpon>UpdateOrderStatus.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UpdateRestaurant.resx">
+      <DependentUpon>UpdateRestaurant.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WeeklyRestaurantPayments.resx">
+      <DependentUpon>WeeklyRestaurantPayments.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WeeklySales.resx">
+      <DependentUpon>WeeklySales.h</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

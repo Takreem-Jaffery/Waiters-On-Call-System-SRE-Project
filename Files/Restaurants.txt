@@ -1,0 +1,5 @@
+1#McDonalds#111244622#Shadman,Lahore
+2#Pizza Hut#09876543210#Johar Town, Lahore
+3#ABC restaurant#12345678901#144-WAPDA
+4#Takreem's Diner#12345678901#FAST, Faisal Town
+5#Yasir Broast#09876543210#Gulberg

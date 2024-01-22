@@ -1,0 +1,62 @@
+﻿  HomePageForm.cpp
+C:\Users\Dell\Desktop\WaitersOnCall\WaitersOnCall\GetCustomerData.h(53,14): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\Dell\Desktop\WaitersOnCall\WaitersOnCall\GetCustomerData.h(369,25): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Dell\Desktop\WaitersOnCall\WaitersOnCall\RecordOrder.h(584,11): warning C4101: 'customerInfoDummy': unreferenced local variable
+C:\Users\Dell\Desktop\WaitersOnCall\WaitersOnCall\DriverAttendance.h(191,1): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Dell\Desktop\WaitersOnCall\WaitersOnCall\DriverAttendance.h(211,25): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Dell\Desktop\WaitersOnCall\WaitersOnCall\UpdateOrderStatus.h(383,21): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Dell\Desktop\WaitersOnCall\WaitersOnCall\UpdateOrderStatus.h(497,25): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Dell\Desktop\WaitersOnCall\WaitersOnCall\UpdateandCancel.h(590,19): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\Dell\Desktop\WaitersOnCall\WaitersOnCall\MonthlySalesReport.h(370,37): warning C4101: 'ex': unreferenced local variable
+C:\Users\Dell\Desktop\WaitersOnCall\WaitersOnCall\MonthlySalesReport.h(375,25): warning C4101: 'ex': unreferenced local variable
+C:\Users\Dell\Desktop\WaitersOnCall\WaitersOnCall\ForecastSales.h(278,40): warning C4101: 'leftover': unreferenced local variable
+C:\Users\Dell\Desktop\WaitersOnCall\WaitersOnCall\ForecastSales.h(607,29): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\Dell\Desktop\WaitersOnCall\WaitersOnCall\ForecastSales.h(518,7): warning C4101: 'totalSalesEachMonth': unreferenced local variable
+C:\Users\Dell\Desktop\WaitersOnCall\WaitersOnCall\ForecastSales.h(785,27): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\Dell\Desktop\WaitersOnCall\WaitersOnCall\ForecastSales.h(673,6): warning C4101: 'totalSalesEachWeek': unreferenced local variable
+C:\Users\Dell\Desktop\WaitersOnCall\WaitersOnCall\HomePageForm.h(319,1): warning C4102: 'WaitersOnCall': unreferenced label
+  LogInForm.cpp
+C:\Users\Dell\Desktop\WaitersOnCall\WaitersOnCall\GetCustomerData.h(53,14): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\Dell\Desktop\WaitersOnCall\WaitersOnCall\GetCustomerData.h(369,25): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Dell\Desktop\WaitersOnCall\WaitersOnCall\RecordOrder.h(584,11): warning C4101: 'customerInfoDummy': unreferenced local variable
+C:\Users\Dell\Desktop\WaitersOnCall\WaitersOnCall\DriverAttendance.h(191,1): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Dell\Desktop\WaitersOnCall\WaitersOnCall\DriverAttendance.h(211,25): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Dell\Desktop\WaitersOnCall\WaitersOnCall\UpdateOrderStatus.h(383,21): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Dell\Desktop\WaitersOnCall\WaitersOnCall\UpdateOrderStatus.h(497,25): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Dell\Desktop\WaitersOnCall\WaitersOnCall\UpdateandCancel.h(590,19): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\Dell\Desktop\WaitersOnCall\WaitersOnCall\MonthlySalesReport.h(370,37): warning C4101: 'ex': unreferenced local variable
+C:\Users\Dell\Desktop\WaitersOnCall\WaitersOnCall\MonthlySalesReport.h(375,25): warning C4101: 'ex': unreferenced local variable
+C:\Users\Dell\Desktop\WaitersOnCall\WaitersOnCall\ForecastSales.h(278,40): warning C4101: 'leftover': unreferenced local variable
+C:\Users\Dell\Desktop\WaitersOnCall\WaitersOnCall\ForecastSales.h(607,29): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\Dell\Desktop\WaitersOnCall\WaitersOnCall\ForecastSales.h(518,7): warning C4101: 'totalSalesEachMonth': unreferenced local variable
+C:\Users\Dell\Desktop\WaitersOnCall\WaitersOnCall\ForecastSales.h(785,27): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\Dell\Desktop\WaitersOnCall\WaitersOnCall\ForecastSales.h(673,6): warning C4101: 'totalSalesEachWeek': unreferenced local variable
+C:\Users\Dell\Desktop\WaitersOnCall\WaitersOnCall\HomePageForm.h(319,1): warning C4102: 'WaitersOnCall': unreferenced label
+  Main.cpp
+C:\Users\Dell\Desktop\WaitersOnCall\WaitersOnCall\GetCustomerData.h(53,14): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\Dell\Desktop\WaitersOnCall\WaitersOnCall\GetCustomerData.h(369,25): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Dell\Desktop\WaitersOnCall\WaitersOnCall\RecordOrder.h(584,11): warning C4101: 'customerInfoDummy': unreferenced local variable
+C:\Users\Dell\Desktop\WaitersOnCall\WaitersOnCall\DriverAttendance.h(191,1): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Dell\Desktop\WaitersOnCall\WaitersOnCall\DriverAttendance.h(211,25): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Dell\Desktop\WaitersOnCall\WaitersOnCall\UpdateOrderStatus.h(383,21): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Dell\Desktop\WaitersOnCall\WaitersOnCall\UpdateOrderStatus.h(497,25): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Dell\Desktop\WaitersOnCall\WaitersOnCall\UpdateandCancel.h(590,19): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\Dell\Desktop\WaitersOnCall\WaitersOnCall\MonthlySalesReport.h(370,37): warning C4101: 'ex': unreferenced local variable
+C:\Users\Dell\Desktop\WaitersOnCall\WaitersOnCall\MonthlySalesReport.h(375,25): warning C4101: 'ex': unreferenced local variable
+C:\Users\Dell\Desktop\WaitersOnCall\WaitersOnCall\ForecastSales.h(278,40): warning C4101: 'leftover': unreferenced local variable
+C:\Users\Dell\Desktop\WaitersOnCall\WaitersOnCall\ForecastSales.h(607,29): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\Dell\Desktop\WaitersOnCall\WaitersOnCall\ForecastSales.h(518,7): warning C4101: 'totalSalesEachMonth': unreferenced local variable
+C:\Users\Dell\Desktop\WaitersOnCall\WaitersOnCall\ForecastSales.h(785,27): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\Dell\Desktop\WaitersOnCall\WaitersOnCall\ForecastSales.h(673,6): warning C4101: 'totalSalesEachWeek': unreferenced local variable
+C:\Users\Dell\Desktop\WaitersOnCall\WaitersOnCall\HomePageForm.h(319,1): warning C4102: 'WaitersOnCall': unreferenced label
+C:\Users\Dell\Desktop\WaitersOnCall\WaitersOnCall\Main.cpp(12,1): warning C4829: Possibly incorrect parameters to function main. Consider 'int main(Platform::Array<Platform::String^>^ argv)'
+  SalesForm.cpp
+C:\Users\Dell\Desktop\WaitersOnCall\WaitersOnCall\MonthlySalesReport.h(370,37): warning C4101: 'ex': unreferenced local variable
+C:\Users\Dell\Desktop\WaitersOnCall\WaitersOnCall\MonthlySalesReport.h(375,25): warning C4101: 'ex': unreferenced local variable
+  WeeklySales.cpp
+  Generating Code...
+C:\Users\Dell\Desktop\WaitersOnCall\WaitersOnCall\ForecastSales.h(506): warning C4715: 'WaitersOnCall::ForecastSales::calculateBeginningOfWeek': not all control paths return a value
+C:\Users\Dell\Desktop\WaitersOnCall\WaitersOnCall\ForecastSales.h(506): warning C4715: 'WaitersOnCall::ForecastSales::calculateBeginningOfWeek': not all control paths return a value
+C:\Users\Dell\Desktop\WaitersOnCall\WaitersOnCall\ForecastSales.h(506): warning C4715: 'WaitersOnCall::ForecastSales::calculateBeginningOfWeek': not all control paths return a value
+  AddDriverForm.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
+  WaitersOnCall.vcxproj -> C:\Users\Dell\Desktop\WaitersOnCall\x64\Debug\WaitersOnCall.exe

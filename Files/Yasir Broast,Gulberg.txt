@@ -1,0 +1,4 @@
+1#Cola#100
+2#Broast#1500
+3#Chicken Tikka#600
+4#Malai Boti#800

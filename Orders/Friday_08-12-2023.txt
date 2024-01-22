@@ -1,0 +1,16 @@
+Delivered
+1#Taki Taki#012312312312#FAST, Lahore
+Pizza Hut,Johar Town, Lahore#ColdDrink#70#4
+ABC restaurant,144-WAPDA#Eel#1900#4
+Takreem's Diner,FAST, Faisal Town#Juice#50#1
+Takreem's Diner,FAST, Faisal Town#Burger#210#1
+price#8140#814#500#9454
+reebs#1234567890123#333#reebs house#mom#444##
+
+in-process
+1#The Owner#03030303030#Faisal Town
+Takreem's Diner,FAST, Faisal Town#Burger#210#1
+Takreem's Diner,FAST, Faisal Town#Cola#100#1
+price#310#31#500#841
+reebs#1234567890123#333#reebs house#mom#444##
+

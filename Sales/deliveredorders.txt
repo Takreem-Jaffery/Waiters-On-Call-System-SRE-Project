@@ -1,0 +1,5 @@
+1#Pizza Hut,Johar Town, Lahore#09-12-2023#630
+2#ABC restaurant,144-WAPDA#09-12-2023#8200
+3#Takreem's Diner,FAST, Faisal Townn#08-12-2023#260
+4#McDonalds,Shadman,Lahore#09-12-2023#1200
+5#Yasir Broast,Gulberg#09-12-2023#10500

@@ -1,0 +1,21 @@
+Delivered
+1#Cena John#09876543214#FAST, Lahore
+McDonalds,Shadman,Lahore#BigMAC#1200#1
+ABC restaurant,144-WAPDA#Jelly#200#2
+price#1600#160#500#2260
+reebs#1234567890123#333#reebs house#mom#444##
+
+Delivered
+1#Zeeshan Rana#09876543987#FAST-NUCES, Lahore
+ABC restaurant,144-WAPDA#Jelly#200#1
+Yasir Broast,Gulberg#Broast#1500#7
+Pizza Hut,Johar Town, Lahore#ColdDrink#70#5
+price#11050#1105#500#12655
+John Cena#1231231231231#03123123123#YouCant, SeeMe#TJ#03030303030##
+
+Cancelled
+1#Broke Lovely Lady#09876543216#FAST, Lahore
+Pizza Hut,Johar Town, Lahore#ColdDrink#70#1
+price#70#7#500#577
+John Cena#1231231231231#03123123123#YouCant, SeeMe#TJ#03030303030##
+

@@ -1,0 +1,4 @@
+1#Burger#210
+2#Cola#100
+3#Fries#100
+4#Juice#50
